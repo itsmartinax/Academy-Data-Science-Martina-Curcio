@@ -13,7 +13,6 @@ while X==True:
 print("La lista è", l)
 
 maxl=0
-l = [23, 5, 76, 9, 67, 4, -5, -22]
 if len(l)==0:
     print("Lista vuota")
 else:
