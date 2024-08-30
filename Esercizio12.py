@@ -16,7 +16,7 @@ maxl=0
 if len(l)==0:
     print("Lista vuota")
 else:
-    for i in range(len(l)-1):
+    for i in range(len(l)):
         if l[i]>maxl:
             maxl=l[i]
     print("Il massimo è", maxl)
