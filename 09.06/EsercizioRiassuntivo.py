@@ -24,7 +24,7 @@ def definizione_python():
 
 #INTRODUZIONE OOP
 def introduzione_OOP():
-    print("Linguaggio orientato agli oggetti: \n La programmazione orientata agli oggetti è un paradigma di programmazione che si fonda sul concetto di 'oggetti'. Basata sull'astrazione che è la madre delle tre regole fondamentali dell'OOP: \n-Incapsulamento \n-Ereditarietà \n-Polimorfismo")
+    print("Linguaggio orientato agli oggetti: \n La programmazione orientata agli oggetti è un paradigma di programmazione che si fonda sul concetto di 'oggetto'. Basata sull'astrazione che è la madre delle tre regole fondamentali dell'OOP: \n-Incapsulamento \n-Ereditarietà \n-Polimorfismo")
     chk=True
     while chk==True:
         opt = int(input("Quale concetto vuoi approfondire?\n1-Astrazione \n2-Incapsulamento \n3-Ereditarietà \n4-Polimorfismo \n5-Esci \nInserisci opzione: "))
