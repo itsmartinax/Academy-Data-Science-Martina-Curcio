@@ -10,7 +10,6 @@ class Automobile: # dichiaro la classe
         print("L'automobile è una", self.marca, self.modello)
 
 
-
 Auto1 = Automobile("Fiat","500") #il self diventa Auto1
 Auto2 = Automobile("BMW","X3") #il self diventa Auto2
 
