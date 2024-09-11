@@ -34,17 +34,17 @@ class Ristorante:
         print("Il ristorante",self.nome,"è uno dei migliori ristoranti di cucina",self.tipo_cucina)
 
     def stato_apertura(self):
-        if self.aperto == False:
+        if self.aperto==False:
             print("Il ristorante è chiuso")
         else:
             print("Il ristorante è aperto")
     
     def apri_ristorante(self):
-        self.aperto==True
+        self.aperto=True
         print("Il ristorante ora è aperto!")
     
     def chiudi_ristorante(self):
-        self.aperto==False
+        self.aperto=False
         print("Il ristorante ora è chiuso!")
 
     def aggiungi_al_menu(self):
@@ -66,6 +66,7 @@ class Ristorante:
 
 
 Rist1=Ristorante("Da Martina", "italiana")
+Rist1.descrivi_ristorante()
 
 Rist1.stato_apertura()
 Rist1.apri_ristorante()
@@ -73,11 +74,11 @@ Rist1.stato_apertura()
 Rist1.chiudi_ristorante()
 Rist1.stato_apertura()
 
-Rist1.aggiungi_al_menu()
-Rist1.aggiungi_al_menu()
-Rist1.stampa_menu()
-Rist1.togli_dal_menu()
-Rist1.stampa_menu()
+# Rist1.aggiungi_al_menu()
+# Rist1.aggiungi_al_menu()
+# Rist1.stampa_menu()
+# Rist1.togli_dal_menu()
+# Rist1.stampa_menu()
 
 
     
