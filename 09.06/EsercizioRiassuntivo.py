@@ -172,7 +172,7 @@ def stringhe():
     return
 
 def booleani():
-    print("Un booleano è un dato che può assumere solo due valori: True e False. Python supporta gli operatori logici per lavalutazione di espressioni booleane.")
+    print("Un booleano è un dato che può assumere solo due valori: True e False. Python supporta gli operatori logici per la valutazione di espressioni booleane.")
     x=int(input("Inserisci un numero: "))
     y=int(input("Inserisci un numero: "))
     z=int(input("Inserisci un numero: "))
@@ -180,7 +180,7 @@ def booleani():
     while chk==True:
         opt = int(input("Quale operatore logico vuoi applicare?\n1-and \n2-or \n3-not \n6-Esci \nInserisci opzione: "))
         if opt==1:
-            print("and resistuiscce True se entrambe le condizioni sono vere.")
+            print("and resistuisce True se entrambe le condizioni sono vere.")
             print("Esempio.\n",x,"<",y,"e",y,">",z,"?:",x<y and y>z)
         elif opt==2:
             print("or resistuiscce True se almeno una delle condizioni è vera.")
@@ -217,7 +217,7 @@ def liste():
         elif opt==3:
             nc = random.randint(0,len(l)-1)
             print("insert() inserisce un elemento in una posizione specifica.")
-            y=input("Inserisci l'elemento da inserire in posizione "+ str(nc)+": ")
+            y=input("Inserisci l'elemento da inserire in posizione ",str(nc),": ")
             l.insert(nc, y)
             print("La nuova lista è",l)
         elif opt==4:

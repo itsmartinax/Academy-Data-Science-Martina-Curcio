@@ -26,7 +26,7 @@ while chk==True:
 
 def media():
     for id in dizionario:
-        print("Nome:", dizionario[id]["Nome"], ", Media:", sum(dizionario[id]["Voti"])/len(dizionario[id]["Voti"]))
+        print("Nome:",dizionario[id]["Nome"],", Media:",sum(dizionario[id]["Voti"])/len(dizionario[id]["Voti"]))
 
 print(dizionario)
 media()
