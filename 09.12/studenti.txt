@@ -1,2 +1,0 @@
-nome,cognome,voti
-Martina,Curcio,[5, 10, 7]
